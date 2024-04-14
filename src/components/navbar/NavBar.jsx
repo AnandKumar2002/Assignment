@@ -17,7 +17,7 @@ function NavBar() {
             <div className="flex items-center justify-center w-[10%]">
                 <img src={Logo} alt="Logo" />
             </div>
-            <div className="flex justify-end w-[40%] hidden lg:flex">
+            <div className="justify-end w-[40%] hidden lg:flex">
                 <a href="#CAREERS" className="mr-4">
                     CAREERS
                 </a>
