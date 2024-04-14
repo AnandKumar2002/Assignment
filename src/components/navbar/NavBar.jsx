@@ -8,7 +8,7 @@ function NavBar() {
 
     return (
         <nav className="text-white fixed w-full h-28 top-0 left-0 z-50 flex justify-between items-center border-b-[1px] border-color-[#cccccc] px-5 lg:px-20">
-            <div className="flex mr-4 lg:gap-20 gap-5 w-[40%] hidden lg:flex">
+            <div className="mr-4 lg:gap-20 gap-5 w-[40%] hidden lg:flex">
                 <a href="#HOME_PROJECTS">PROJECTS</a>
                 <a href="#CONNECTED_EXPERTISE">EXPERTISE</a>
                 <a href="#BELIEVE_IN_ABOUT_US">ABOUT US</a>
