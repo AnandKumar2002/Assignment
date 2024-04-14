@@ -15,7 +15,7 @@ function RightConnected() {
     };
 
     return (
-        <div className='relative w-[50%] h-full'>
+        <div className='relative w-full lg:w-[50%] lg:h-full h-auto'>
             <img src={images[currentImageIndex]} alt="Connected" className='w-full h-full object-cover' />
             <div className="absolute bottom-5 right-10 left-0 flex justify-end px-4 py-2 gap-2 text-white">
                 <button onClick={goToPreviousImage} className='border rounded-full border-color-white h-10 w-10 flex justify-center items-center'>
@@ -27,6 +27,6 @@ function RightConnected() {
             </div>
         </div>
     );
-}
+};
 
 export default RightConnected;

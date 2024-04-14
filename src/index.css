@@ -15,3 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+
+::selection {
+  background-color: #F36F2B;
+  color: #c4cfde;
+}

@@ -5,7 +5,7 @@ import { FaAddressBook } from "react-icons/fa";
 
 function LeftConnected() {
     return (
-        <div className='w-[50%] lg:px-32 px-10 py-10 flex flex-col lg:gap-10 gap-5'>
+        <div className='w-full lg:w-[50%] lg:px-32 px-10 py-10 flex flex-col lg:gap-10 gap-5'>
             <p className='lg:text-6xl font-titleFont text-4xl'>We <span className='text-[#F36F2B]'>stay connected</span></p>
             <div className='flex flex-col '>
                 <div className='flex items-center gap-6 font-bold mb-4'>
